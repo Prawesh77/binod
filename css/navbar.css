@@ -1,0 +1,88 @@
+navbar{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 23px 60px;
+    background-color: var(--nav-color);
+    color: var(--nav-text);
+}
+
+.nav_left{
+    display: flex;
+    text-align: center;
+    align-items: center; 
+}
+.logo{
+    padding-right: 5px;
+}
+.brand_name{
+    padding-right: 15px;
+}
+.sav{
+    display: flex;
+    /* background-color: aqua; */
+}
+.soon{
+    margin-left: 5px;
+    
+    padding: 4px 4px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+}
+
+
+.nav_mid{
+    display: flex; 
+    text-align: center; 
+    align-items: center;  
+}
+.mid{
+    margin-left: 30px;
+    display: flex;
+}
+.third{
+    background-image: linear-gradient(to right, var(--grad-from) , var(--grad-to));
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.nav_right{
+    display: flex; 
+    align-items: center;
+}
+
+.bx{
+    margin-left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.toggle{
+    font-size: 80px;
+    position: relative;
+    color: var(--toggle);
+}
+.sun{
+    position: absolute;
+    left: -2px;
+    top: 32px;
+    font-size: 17px;
+}
+.moon{
+    position: absolute;
+    left: 28px;
+    top: 33px;
+    font-size: 13px;
+}
+.profile_circle{
+    font-size: 50px;
+    color: var(--toggle);
+}
+.price{
+    font-size: 20px;
+}
+
+.bx-chevron-down{
+    margin-left: 2px;
+    margin-top: -5px;
+    cursor: pointer;
+}
