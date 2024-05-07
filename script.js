@@ -16,3 +16,13 @@ toggleButton.addEventListener('click',()=>{
 
 })
 
+
+
+let resp_nav= document.getElementById("nav_mid");
+let menu= document.getElementById("menu_icon");
+
+menu.addEventListener('click',()=>{
+    menu.classList.toggle('bx-x');
+    resp_nav.classList.toggle('open');
+})
+

@@ -86,3 +86,40 @@ navbar{
     margin-top: -5px;
     cursor: pointer;
 }
+
+.menu{
+   display: none;
+   cursor: pointer; 
+   /* margin: auto; */
+}
+
+@media only screen and (max-width: 986px) {
+    .menu{
+        display: inline;
+        /* z-index: 20; */
+    }
+    .nav_mid{
+        position: absolute;
+        top: 70px;
+        right: -300px;
+        width: 300px;
+        background-color: var(--primary-color);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 48px 0px;
+        display:none;
+        transition: all 0.5s ease;
+        /* display:none; */
+    }
+    .mid{
+        /* display: inline; */
+        margin: 2rem 0;
+        
+    }
+    .nav_mid.open{
+        display: inline;
+		right: 0px;
+	}
+}
